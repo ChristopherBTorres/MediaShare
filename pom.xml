@@ -11,16 +11,16 @@
 	<groupId>com.medare</groupId>
 	<artifactId>mediashare</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-  <name> MediaShare </name>
-  <description> Spring Boot media sharing application. </description>
-  <url> https://github.com/ChristopherBTorres/MediaShare </url>
+  <name>MediaShare</name>
+  <description>Spring Boot media sharing application.</description>
+  <url>https://github.com/ChristopherBTorres/MediaShare</url>
 
 	<developers>
     <developer>
-        <name> Chris Torres </name>
-        <email> christopherb.torres@outlook.com </email>
-        <organization> ChristopherBTorres </organization>
-        <organizationUrl> https://github.com/ChristopherBTorres </organizationUrl>
+        <name>Chris Torres</name>
+        <email>christopherb.torres@outlook.com</email>
+        <organization> ChristopherBTorres</organization>
+        <organizationUrl>https://github.com/ChristopherBTorres</organizationUrl>
     </developer>
   </developers>
 
@@ -61,6 +61,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-webclient</artifactId>
+    </dependency>
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-database-postgresql</artifactId>
@@ -81,6 +85,12 @@
 		<dependency>
 			<groupId>org.springframework.modulith</groupId>
 			<artifactId>spring-modulith-starter-jpa</artifactId>
+		</dependency>
+    <!-- Source: https://mvnrepository.com/artifact/org.apache.tika/tika-core -->
+    <dependency>
+      <groupId>org.apache.tika</groupId>
+      <artifactId>tika-core</artifactId>
+			<version>4.0.0</version>
 		</dependency>
 
 		<dependency>

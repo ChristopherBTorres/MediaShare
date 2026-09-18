@@ -1,13 +1,11 @@
-package com.medare.content;
+package com.medare.mediashare;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ContentApplication {
-
+public class MediaShareApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(ContentApplication.class, args);
+		SpringApplication.run(MediaShareApplication.class, args);
 	}
-
 }
