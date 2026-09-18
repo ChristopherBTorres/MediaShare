@@ -1,4 +1,4 @@
-package com.medare.content;
+package com.medare.mediashare;
 
 import org.springframework.boot.SpringApplication;
 

@@ -9,17 +9,17 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.medare</groupId>
-	<artifactId>content</artifactId>
+	<artifactId>mediashare</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-  <name> Content </name>
-  <description> Medare Content Backend </description>
-  <url> https://github.com/ChristopherBTorres/Content </url>
+  <name> MediaShare </name>
+  <description> Spring Boot media sharing application. </description>
+  <url> https://github.com/ChristopherBTorres/MediaShare </url>
 
 	<developers>
     <developer>
         <name> Chris Torres </name>
-        <email>christopherb.torres@outlook.com </email>
-        <organization> Chris Torres - Personal Project </organization>
+        <email> christopherb.torres@outlook.com </email>
+        <organization> ChristopherBTorres </organization>
         <organizationUrl> https://github.com/ChristopherBTorres </organizationUrl>
     </developer>
   </developers>
